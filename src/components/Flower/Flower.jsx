@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 const Flower = ({flower}) => {
     const {title, img, p, price} = flower
+
     return (
         <div>
          
@@ -19,9 +20,8 @@ const Flower = ({flower}) => {
         <button className='bg-[#2F80ED] w-full py-2  rounded text-white font-semibold'>Select</button>
   </div>
   </div>
+  </div>
  
-</div>
-
         </div>
 
     );
